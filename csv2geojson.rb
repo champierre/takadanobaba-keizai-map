@@ -12,7 +12,8 @@ posts.each do |post|
       "coordinates" => [post["lng"], post["lat"]]
     },
     "properties" => {
-      "marker-size" => "large",
+      "marker-symbol" => "minkei",
+      "marker-size" => "medium",
       "description" => "<a target='_blank' href='#{post['url']}'>#{post['title']}</a>"
     }
   }
